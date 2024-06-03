@@ -6,6 +6,7 @@ import axios from 'axios'
 import Header from './Header'
 import { Link } from 'react-router-dom'
 import './Res.css'
+import './Exchanges.css'
 const Coins = () => {
   const [loading, setLoading]=useState(true)
   const[coins, setCoins]=useState([])
