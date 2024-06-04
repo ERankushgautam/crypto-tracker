@@ -62,9 +62,9 @@
 .add-product {
   width: 50%;
   margin: 5vh auto;
-  background-color: #0d2738;
+  background-color: #383632;
   color: rgba(255, 255, 255, 0.908);
-  border: 2px solid #0d2738;
+  border: 2px solid #749cb7;
   border-radius: 30px;
 
   display: flex;
@@ -75,9 +75,9 @@
 
 .form {
   width: 80%;
-  background-color: #f2faff;
+  background-color: #e7dcb9;
   color: rgba(0, 19, 44, 0.931);
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 5vh 0;
 
   display: flex;
@@ -90,8 +90,8 @@
   height: 4vh;
   margin: 3vh 0;
   padding: 3px 10px;
-  border: none;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   background-color: #dfdfdf;
   color: rgb(0, 0, 0);
 }
@@ -102,12 +102,12 @@
   height: 5vh;
   margin: 3vh 0;
   padding: 3px 10px;
-  border: none;
+  border: 1px solid black;
   border-radius: 20px;
   cursor: pointer;
 
-  background-color: #0d2738;
-  color: white;
+  background-color: rgb(242, 161, 10);
+  color: rgb(0, 0, 0);
 }
 
 #login {
@@ -122,7 +122,7 @@
   margin: 3vh 0;
   padding: 3px 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: medium;
 
@@ -131,17 +131,17 @@
 }
 
 #login-btn a {
-  color: #0d2738;
+  color: #7cb6dd;
   text-decoration: none;
 }
 
 .login {
   width: 50%;
   margin: 5vh auto;
-  background-color: #0d2738;
+  /* background-color: #e0ca81; */
   color: rgba(255, 255, 255, 0.908);
-  border: 2px solid #0d2738;
-  border-radius: 30px;
+  border: 2px solid #171819;
+  border-radius: 10px;
 
   display: flex;
   flex-direction: column;
