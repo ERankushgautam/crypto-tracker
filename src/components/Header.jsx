@@ -2,7 +2,12 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { FaEthereum } from "react-icons/fa";
+
 const Header = () => {
+  const auth = localStorage.getItem("user")
+  const logout  = ()=>{
+    localStorage.clear()
+  }
   return (
     <div className="navbar">
       <div className="logo">
@@ -11,8 +16,11 @@ const Header = () => {
       </div>
       <ul>
         <li>
-          <Link to="/coins">Coins</Link>
+          <Link to="/home">Home</Link>
+
           <Link to="/signup">signup</Link>
+          <Link onClick={logout} to="/">Logout</Link>
+
         </li>
       </ul>
     </div>
